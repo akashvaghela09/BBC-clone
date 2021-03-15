@@ -1,0 +1,51 @@
+.junk{
+  min-height: 100vh;
+}
+
+
+.wrapper{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.733);
+    /* margin-top: 150px; */
+}
+
+.h2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .h2::after {
+    content: '';
+    flex: 1;
+    margin-left: 1rem;
+    height: 1px;
+    background-color: grey;
+  }
+
+.section__Wrapper
+  {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    margin: 30px 0;
+    cursor: pointer;
+  }
+
+  .section__Wrapper:hover{
+    
+  }
+
+
+  .largeImageTags{
+    width: 35%;
+  }
+
+  .smallImageTags{
+    width: 65%;
+  }
+  .headings{
+    width: 100%;
+  }

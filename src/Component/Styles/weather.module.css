@@ -1,0 +1,38 @@
+.weather__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 100px;
+    text-align: left;
+    width: fit-content;
+  
+}
+.weather__topBox__h3{
+    margin:-30px 5px;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.weather__topBox{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.weather__topBox > h3{
+    margin: 0;
+    padding: 0;
+}
+
+.weather__topBox__btn_1{
+    cursor: pointer;
+    padding: .5rem .5rem;
+    background: #f2f2f2;
+    font-size: .625rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #8c8c8c;
+    margin-left: 1rem;
+    transform: translateY(-50%);
+    
+   
+}
